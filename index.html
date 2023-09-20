@@ -3,10 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/reset.css">
     <link rel="stylesheet" href="/Css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Luis Melenciano WEB</title>
 </head>
 <body>
+
+    <!-- layout principal -->
+    <div class="layout">
+        <!-- barra lateral de informancion de usuario -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+                <!-- informancion general del usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__imagen">
+                        <img src="/Assets/Luis.jpg"  class="user_img">
+                    </div>
+
+                    <h2 class="user-info__name">Luis Mercedes</h2>
+                    <h4 class="user-info__trabajo">Desarrollador Software</h4>
+
+                </div>
+
+                <!-- menu de navegacion -->
+                <nav class="aside__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="/index.html" class="menu__link">
+                                <i class='menu__icon bx bxs-home'></i>
+                                <span class="menu__title">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="/index.html" class="menu__link">
+                                <i class='menu__icon bx bxs-user'></i>
+                                <span class="menu__title">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="/index.html" class="menu__link">
+                          <i class='menu__icon bx bxs-graduation'></i>
+                                <span class="menu__title">Estudios</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="/index.html" class="menu__link">
+                                <i class='menu__icon bx bxs-briefcase-alt-2' ></i>
+                                <span class="menu__title">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="/index.html" class="menu__link">
+                                <i class='menu__icon bx bxs-book'></i>
+                                <span class="menu__title">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="/index.html" class="menu__link">
+                                <i class='menu__icon bx bxs-envelope'></i>
+                                <span class="menu__title">Contacto</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+                <div class="user-info__user-links">
+                    <ul class="user-link__social">
+                        <li class="social-options">
+                            <a href="#" class="social-links">
+                                <i class='bx bxl-instagram-alt'></i>
+                            </a>
+                        </li>
+
+                        <li class="social-options">
+                            <a href="#" class="social-links">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </li>
+
+                        <li class="social-options">
+                            <a href="#" class="social-links">
+                                <i class='bx bxl-linkedin-square'></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="user-info-buttons">
+                    <a href="#" class="user-info-btn">Descargar CV</a>
+                </div>
+
+                <div class="user-info__footer">
+                    &copy; Luis Melenciano Web
+
+                </div>
+
+
+            </section>
+        </aside>
+
+        <main class="layout-container">
+            <section class="container-page">
+                <h1>Luis Mercedes Web</h1>
+                <p>Desarrollador de Software</p>
+            </section>
+        </main>
+
+    </div>
     
 </body>
 </html>
